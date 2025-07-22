@@ -15,26 +15,13 @@
 
 <body>
     <?php
-
-
-
 session_start();
-
 $_SESSION["user"]="";
 $_SESSION["usertype"]="";
-
-// Set the new timezone
 date_default_timezone_set('Asia/Kolkata');
 $date = date('Y-m-d');
-
 $_SESSION["date"]=$date;
-
-
-
 if($_POST){
-
-    
-
     $_SESSION["personal"]=array(
         'fname'=>$_POST['fname'],
         'lname'=>$_POST['lname'],
