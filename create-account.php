@@ -19,16 +19,16 @@
 
 <body>
     <?php
-
 session_start();
-
 $_SESSION["user"]="";
 $_SESSION["usertype"]="";
+$_SESSION["username"]="";
+$_SESSION["date"]="";
+$_SESSION["personal"] = array();
 
 // Set the new timezone
 date_default_timezone_set('Asia/Kolkata');
 $date = date('Y-m-d');
-
 $_SESSION["date"]=$date;
 
 
