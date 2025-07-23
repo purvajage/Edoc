@@ -14,9 +14,8 @@ CREATE TABLE IF NOT EXISTS `admin` (
   PRIMARY KEY (`aemail`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `admin`
---
+
+
 
 INSERT INTO `admin` (`aemail`, `apassword`) VALUES
 ('admin@edoc.com', '123');
