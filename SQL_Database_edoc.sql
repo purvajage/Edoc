@@ -13,8 +13,6 @@ CREATE TABLE IF NOT EXISTS `admin` (
 INSERT INTO `admin` (`aemail`, `apassword`) VALUES
 ('admin@edoc.com', '123');
 
-
-
 DROP TABLE IF EXISTS `appointment`;
 CREATE TABLE IF NOT EXISTS `appointment` (
   `appoid` int(11) NOT NULL AUTO_INCREMENT,
