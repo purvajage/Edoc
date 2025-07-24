@@ -10,16 +10,10 @@ CREATE TABLE IF NOT EXISTS `admin` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 
-
-
 INSERT INTO `admin` (`aemail`, `apassword`) VALUES
 ('admin@edoc.com', '123');
 
--- --------------------------------------------------------
 
---
--- Table structure for table `appointment`
---
 
 DROP TABLE IF EXISTS `appointment`;
 CREATE TABLE IF NOT EXISTS `appointment` (
